@@ -15,18 +15,17 @@ angular
     'ngMessages',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ngMaterial',
+    'hammerJs',
+    
   ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/beermenu.html',
         controller: 'MainCtrl'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
-      })
+              })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'

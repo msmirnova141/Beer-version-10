@@ -14,4 +14,5 @@ angular.module('beerAppApp')
       'AngularJS',
       'Karma'
     ];
+    console.log("test ontact");
   });
